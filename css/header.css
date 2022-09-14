@@ -1,5 +1,7 @@
 header {
     background-image: url(../img/header/header-background.jpg);
+    background-size: cover;
+    background-position: 45%;
     background-color: #0007;
     background-blend-mode: darken;
 }
@@ -62,7 +64,7 @@ header {
 }
 
 .page__content {
-    padding: 250px 0 250px 0;
+    padding: 200px 0 250px 0;
 }
 
 .page__description {
