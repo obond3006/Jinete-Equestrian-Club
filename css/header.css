@@ -1,5 +1,7 @@
 header {
     background-image: url(../img/header/header-background.jpg);
+    background-color: #0007;
+    background-blend-mode: darken;
 }
 
 .header__container {
@@ -26,12 +28,72 @@ header {
     display: none;
 }
 
-a {
-    padding: 20px;
+.link-name {
+    text-decoration: none;
+    font: 700 17px "Roboto", sans-serif;
+    color: var(--white_text-color);
+    padding: 10px 17.5px;
 }
 
-h2 {
-    color: darkblue;
+.link-name:hover {
+    cursor: pointer;
+    color: var(--accent_orange-color);
+    border-bottom: 3px solid var(--white_text-color);
+}
+
+.link-button {
+    text-decoration: none;
+    font: 700 10.8px/13.5px "Roboto", sans-serif;
+    color: var(--white_text-color);
+    padding: 16px 33px;
+    margin: 10px;
+    border: 2px solid var(--white_text-color);
+}
+
+.link-button:hover {
+    cursor: pointer;
+    color: var(--section_heading-color);
+    background-color: var(--white_text-color);
+    transition: background-color 0.5s linear;
+}
+
+.page__cover {
+    padding: 0 20px;
+}
+
+.page__content {
+    padding: 250px 0 250px 0;
+}
+
+.page__description {
+    font: 400 20px/28px "Roboto", sans-serif;
+    color: var(--white_text-color);
+    text-align: center;
+    margin-top: 35px;
+}
+
+.page__button {
+    display: block;
+    width: 205px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 700 13.2px/16.5px "Roboto", sans-serif;
+    color: var(--white_text-color);
+    text-align: center;
+    padding: 23px 60px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: var(--accent_orange-color);
+    border: 2px solid var(--accent_orange-color);
+}
+
+.page__button:hover {
+    cursor: pointer;
+    color: var(--section_heading-color);
+    background-color: var(--white_text-color);
+    border-color: var(--white_text-color);
+    transition: background-color 0.5s linear;
+    transition: border-color 0.5s linear;
 }
 
 @media (max-width: 920px) {
@@ -48,8 +110,9 @@ h2 {
     }
 
     .burger {
+        margin-top: 18px;
         position: relative;
-        width: 40px;
+        width: 35px;
         height: 20px;
         padding: 15px;
         cursor: pointer;
@@ -91,5 +154,13 @@ h2 {
     .burger.active::after {
         bottom: 45%;
         transform: rotate(45deg);
+    }
+
+    .link-name:hover {
+        border-bottom: none;
+    }
+
+    .page__content {
+        padding: 130px 0 130px 0;
     }
 }
