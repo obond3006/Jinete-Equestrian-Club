@@ -17,6 +17,7 @@ img {
     --accent_orange-color: #F3B969;
     --page__heading-color: #fff;
     --section_heading-color: #211E1B;
+    --section_paragraph-color: #7C7166;
     --white_text-color: #fff;
     --burger_icon-color: #fff;
     --burger_background-color: #211E1B;
@@ -36,16 +37,23 @@ img {
 }
 
 .section-line{
-    
+    background-color: var(--accent_orange-color);
+    width: 60px;
+    height: 4px;
+    margin: 10px auto;
 }
 
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
     .page__heading{
         font: 700 90px/110px "Libre Baskerville", serif;
     }
+
+    .section_heading {
+        font: normal 700 45px/58.5px "Libre Baskerville", serif;
+    }
 }
 
-@media (min-width: 922px){
+@media (min-width: 922px) {
     
 }

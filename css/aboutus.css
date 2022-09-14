@@ -1,0 +1,89 @@
+.about {
+    padding: 90px 20px;
+}
+
+.about__container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.about_illustration {
+    margin: 45px auto 0;
+}
+
+.about_illustration img {
+    border-radius: 5px;
+    min-height: 180px;
+    object-fit: cover;
+}
+
+.icon-image {
+    width: 26px;
+    height: 26px;    
+}
+
+.about_description-icon_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--accent_orange-color);
+    min-width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.about_description-text {
+    margin-left: 20px;
+}
+
+.about_description-itemheading {
+    font: 500 22px/31px "Roboto", sans-serif;
+    color: var(--section_heading-color);
+}
+
+.about_description-itemcontent {
+    font: 400 17px/25.5px "Roboto", sans-serif;
+    color: var(--section_paragraph-color);
+    margin-top: 20px;
+}
+
+.about_description-item {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.about_description {
+    margin-top: 50px;
+}
+
+@media (min-width: 768px) {
+    .section_content {
+        display: flex;
+        align-items: center;
+    }
+
+    .about_illustration {
+        padding: 0 15px;
+        flex: 1;
+    }
+
+    .about_description {
+        padding: 0 15px;
+        flex: 1;
+    }
+
+    .icon-image {
+        width: 40px;
+        height: 40px;    
+    }
+
+    .about_description-icon_container {
+        min-width: 70px;
+        height: 70px;
+        border-radius: 70px;
+    }
+
+    .about_illustration {
+        margin: auto;
+    }
+}
