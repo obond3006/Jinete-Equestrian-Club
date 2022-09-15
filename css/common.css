@@ -15,13 +15,21 @@ img {
 :root {
     scroll-behavior: smooth;
     --accent_orange-color: #F3B969;
+    --accent_brown-color: #202122;
     --page__heading-color: #fff;
     --section_heading-color: #211E1B;
+    --section_subheading-darkcolor: #211E1B;
+    --section_subheading-lightcolor: #F3B969;
     --section_paragraph-color: #7C7166;
     --white_text-color: #fff;
     --burger_icon-color: #fff;
+    --white_card-color: #fff;
     --burger_background-color: #211E1B;
     --cards-shadow: rgba(149, 157, 165, 0.2) 0px 3px 10px;   
+}
+
+.page_section {
+    padding: 90px 20px;
 }
 
 .page__heading{
@@ -41,6 +49,16 @@ img {
     width: 60px;
     height: 4px;
     margin: 10px auto;
+}
+
+.page__button {
+    display: block;    
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--white_text-color);
+    text-align: center;
+    margin: auto;       
+    margin-top: 50px;
 }
 
 
