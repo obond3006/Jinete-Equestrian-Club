@@ -3,6 +3,11 @@
     background-size: cover;
 }
 
+.facilities__container {
+    max-width: 1200px;
+    margin: auto;
+}
+
 .facilities__cards-gallery {
     display: grid;
     grid-template-columns: 1fr;    
