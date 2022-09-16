@@ -1,3 +1,13 @@
+.contacts {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.contacts__container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 .contacts_form {
     padding: 39px 35px;
     background-color: var(--white_card-color);
@@ -21,7 +31,6 @@
 
 .contacts_button {
     width: 100%;
-    max-width: 230px;
     font: 700 12px/15px "Roboto", sans-serif;
     background-color: var(--accent_orange-color);
     border: none;
@@ -33,4 +42,53 @@
     color: var(--white_text-color);
     background-color: var(--accent_brown-color);
     transition: background-color 0.5s linear;
+}
+
+.contacts_information {
+    margin-top: 50px;
+}
+
+.contacts__card-heading {
+    font: 500 24px/31px "Roboto", sans-serif;
+    color: var(--section_subheading-darkcolor);
+    margin-bottom: 5px;
+}
+
+.contact-link {
+    text-decoration: none;
+    font: 400 17px/25.5px "Roboto", sans-serif;
+    color: var(--section_paragraph-color);
+    margin-bottom: 16px;
+}
+
+.contacts_social-links {
+    margin-top: 30px;
+}
+
+.contacts_map-container {
+    margin-top: 30px;
+}
+
+.contacts_map {
+    width: 100%;
+    height: 478px;
+}
+
+@media (min-width: 768px) {
+    .contacts__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contacts_form {
+        margin: 0 15px;
+    }
+
+    .contacts_information {
+        margin: 0 15px;
+    }
+
+    .contacts__card-heading {
+        font-size: 28px;
+    }
 }

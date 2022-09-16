@@ -63,6 +63,12 @@ img {
     box-shadow: var(--cards-shadow);
 }
 
+.social-icon {
+    text-decoration: none;
+    font-size: 34px;
+    color: var(--accent_orange-color);
+}
+
 
 @media (min-width: 768px) {
     .page__heading{
