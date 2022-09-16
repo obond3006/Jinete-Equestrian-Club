@@ -73,5 +73,7 @@ img {
 }
 
 @media (min-width: 922px) {
-    
+    .section_heading {
+        font: normal 700 52px/68px "Libre Baskerville", serif;
+    }
 }
