@@ -1,0 +1,36 @@
+.contacts_form {
+    padding: 39px 35px;
+    background-color: var(--white_card-color);
+    box-shadow: var(--cards-shadow);
+}
+
+.contacts_description {
+    font: 400 18px/25.5px "Roboto", sans-serif;
+    text-align: center;
+    color: var(--section_paragraph-color);
+    margin-top: 15px;
+}
+
+.contact-input {
+    width: 100%;
+    padding: 20px 50px;
+    margin: 12px auto 24px;
+    background-color: var(--input_background-color);
+    border: none;
+}
+
+.contacts_button {
+    width: 100%;
+    max-width: 230px;
+    font: 700 12px/15px "Roboto", sans-serif;
+    background-color: var(--accent_orange-color);
+    border: none;
+    padding: 20px 50px;
+}
+
+.contacts_button:hover {
+    cursor: pointer;
+    color: var(--white_text-color);
+    background-color: var(--accent_brown-color);
+    transition: background-color 0.5s linear;
+}
