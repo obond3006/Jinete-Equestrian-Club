@@ -17,7 +17,8 @@
     margin-top: 45px;
     padding: 31px 27px;
     background-color: var(--white_card-color);
-    border-radius: 6px;    
+    border-radius: 6px;
+    box-shadow: var(--cards-shadow);    
 }
 
 .facilities__card-illustration {

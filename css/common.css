@@ -59,6 +59,7 @@ img {
     text-align: center;
     margin: auto;       
     margin-top: 50px;
+    box-shadow: var(--cards-shadow);
 }
 
 
