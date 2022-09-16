@@ -3,10 +3,6 @@
   margin: auto;
 }
 
-.gallery__photos-container {
-  
-}
-
 .gallery__photos {
   position: relative;
   width: 90%;
@@ -43,6 +39,10 @@
   background-color: var(--accent_brown-color);
   opacity: 80%;
   font-size: 12px;
+}
+
+.btn:hover {
+  opacity: 90%;
 }
   
 .btn:active {
