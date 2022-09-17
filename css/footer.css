@@ -1,0 +1,121 @@
+.footer {
+    background-color: var(--footer_background-color);    
+}
+
+.footer__container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_logo {
+    width: 167px;
+    margin: auto;
+}
+
+.footer_slogan {
+    font: normal 400 17px/25.5px "Roboto", sans-serif;
+    color: var(--white_text-color);
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer_links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.footer_link-name {
+    text-decoration: none;
+    font: normal 400 17px/25.5px "Roboto", sans-serif;
+    color: var(--white_text-color);
+    text-align: center;
+    margin: 10px auto; 
+}
+
+.footer_link-name:hover {
+    color: var(--accent_orange-color);
+}
+
+.footer_social-links {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_links-heading {
+    font: normal 500 22px/31px "Roboto", sans-serif;
+    color: var(--white_text-color);
+    text-align: center;
+}
+
+.footer_links-icons {
+    display: flex;
+    justify-content: space-around;
+    width: 140px;
+    margin-top: 30px;
+}
+
+.footer_button {
+    font: 700 11px/13.5px "Roboto", sans-serif;
+    background-color: var(--accent_orange-color);
+    padding: 15px 40px;
+    box-shadow: none;
+}
+
+.footer_button:hover {
+    cursor: pointer;
+    color: var(--footer_background-color);
+    background-color: var(--white_card-color);
+    transition: background-color 0.5s linear;
+}
+
+.footer_copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer_copyright-content {
+    font: normal 400 14px/20px "Roboto", sans-serif;
+    color: var(--accent_orange-color);
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+    .footer_links{
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 30px auto 0;
+        width: 500px;
+    }
+
+    .footer_social-links {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin: 30px auto 0;
+        width: 600px;
+    }
+
+    .footer_links-icons {
+        margin: 0px;
+    }
+    
+    .footer_button {
+        margin: 0;
+    }
+
+    .footer_copyright {
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 30px auto 0;
+        width: 400px;
+    }
+}

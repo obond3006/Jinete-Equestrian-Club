@@ -25,7 +25,9 @@ img {
     --burger_icon-color: #fff;
     --white_card-color: #fff;
     --burger_background-color: #211E1B;
+    --footer_background-color: #211E1B;
     --input_background-color: #211E1B1F;
+    --icon_hover-color: #f39e27;
     --cards-shadow: rgba(149, 157, 165, 0.2) 0px 3px 10px;   
 }
 
@@ -67,6 +69,10 @@ img {
     text-decoration: none;
     font-size: 34px;
     color: var(--accent_orange-color);
+}
+
+.social-icon:hover {
+    color: var(--icon_hover-color);
 }
 
 
