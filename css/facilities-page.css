@@ -1,0 +1,38 @@
+.facilities-header {
+    background-image: linear-gradient(#211E1B, #211E1B), url(../../img/facilities/horse-background-image.webp);
+    background-size: cover;
+    background-blend-mode: saturation;
+    background-position: 50% 70%;
+}
+
+.facilities-page__heading {
+    font: normal 700 56px/62px "Libre Baskerville", serif;
+    padding: 55px 0 90px;
+}
+
+.facilities-page__facilities {
+    background-image: url(../../img/facilities/cards-section-background.webp);
+    background-size: auto;
+}
+
+.facilities-page__contacts {
+    background-image: url(../../img/facilities/parallax-background.webp);
+    background-size: cover;
+    background-position: 25%;
+    background-color: #0009;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+}
+
+@media (min-width: 768px) {
+    .facilities-page__heading {
+        font-size: 67px;
+    }
+}
+
+@media (min-width: 922px) {
+    .facilities-page__heading {
+        font-size: 78px;
+        padding: 55px 0 100px;
+    }
+}

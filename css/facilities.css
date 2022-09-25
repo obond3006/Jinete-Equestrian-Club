@@ -39,6 +39,7 @@
 
 .facilities__link {
     text-decoration: none;
+    text-transform: uppercase;
     font: 700 12px/15px "Roboto", sans-serif;
     color: var(--accent_brown-color);
 }
