@@ -1,0 +1,62 @@
+.ridingclub-header {
+    background-image: linear-gradient(#211E1B, #211E1B), url(../img/facilities/horse-background-image.webp);
+    background-size: cover;
+    background-blend-mode: saturation;
+    background-position: 50% 70%;
+}
+
+.ridingclub-page__heading {
+    font: normal 700 56px/62px "Libre Baskerville", serif;
+    padding: 55px 0 90px;
+}
+
+.ridingclub-page__instructors, .ridingclub-page__horses {
+    background-image: url(../img/horses/ridingclub-page-background.webp);
+    background-size: cover;
+    background-position: 50% 60%;
+    background-attachment: fixed;
+}
+
+.instructors__cards-gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+}
+
+.instructors__cards-gallery-card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    padding: 20px;
+    background-color: var(--white_card-color);
+    border-radius: 6px;
+    box-shadow: var(--cards-shadow);
+}
+
+@media (min-width: 768px) {
+    .instructors-page__heading {
+        font-size: 67px;
+    }
+
+    .instructors__cards-gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .instructors__cards-gallery-card {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+@media (min-width: 922px) {
+    .instructors-page__heading {
+        font-size: 78px;
+        padding: 55px 0 100px;
+    }
+
+    .instructors__cards-gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
